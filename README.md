@@ -6,7 +6,9 @@ A 42 Silicon Valley project to create a Unix-like shell in c
 
 As a first attempt at creating a 'shell' command system, this project only allows the input of simple commands.
 
-In a later project, 21sh,
+A later project, 21sh, will handle tokenization and abstract syntax tree parsing.
+
+![Example](https://raw.githubusercontent.com/Dorfnox/minishell/master/example_images/shell_commands_example.png)
 
 ## Installation and Running
 
@@ -32,6 +34,7 @@ Step 3: run the executable:
 
 The minishell can run any system executables located in the PATH environmental variable, as well as some simple builtins.
 The minishell also catches Ctrl-c signals, if you want to terminate a running program.
+Commands can also be seperated with the and ("&", "&&") characters and a semicolon (";"). This will run multiple executables in a row.
 
 ### Builtin Commands
 
