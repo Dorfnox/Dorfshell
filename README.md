@@ -8,7 +8,7 @@ As a first attempt at creating a 'shell' command system, this project only allow
 
 A later project, 21sh, will handle tokenization and abstract syntax tree parsing.
 
-![Example](https://raw.githubusercontent.com/Dorfnox/minishell/master/example_images/shell_commands_example.png)
+![Example](https://raw.githubusercontent.com/Dorfnox/minishell/master/example_images/shell_example.png)
 
 ## Installation and Running
 
