@@ -6,7 +6,7 @@
 /*   By: bpierce <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/07 13:48:54 by bpierce           #+#    #+#             */
-/*   Updated: 2018/03/11 18:55:53 by bpierce          ###   ########.fr       */
+/*   Updated: 2018/05/10 13:38:22 by bpierce          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@
 
 # define MINISHELL_EXECUTABLE_NAME "minishell"
 
-# define SHELL_MESSAGE IRED"Dorf's Shell "IGREEN"$$ Bills Ya'll $> "IWHITE
+# define SHELL_MESSAGE IRED"Dorf's Shell $> "IWHITE
 # define SHELL_Q_QUOTE ICYAN"Q> "IWHITE
 # define SHELL_D_QUOTE ICYAN"DQ> "IWHITE
 # define MINISHELL_BACKSPACE "\b \b"
