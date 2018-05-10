@@ -31,6 +31,7 @@ Step 3: run the executable:
 ## Commands
 
 The minishell can run any system executables located in the PATH environmental variable, as well as some simple builtins.
+The minishell also catches Ctrl-c signals, if you want to terminate a running program.
 
 ### Builtin Commands
 
