@@ -36,6 +36,11 @@ The minishell can run any system executables located in the PATH environmental v
 
 Builtin commands include:
 
+Importantly, to exit the minishell run:
+```
+exit
+```
+
 Displaying environmental variables using 'env':
 ```
 env
